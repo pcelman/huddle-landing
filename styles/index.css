@@ -107,10 +107,11 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 60px;
-  box-sizing: 0 0 4px hsl(192, 100%, 9% .3);
+  gap: 40px;
+  box-shadow: 0 0 4px hsl(195, 100%, 9%, 0.3);
+  /* box-shadow: 0 0 4px hsl(192 100% 9% 0.3); */
   border-radius: 8px;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 .section__img {
