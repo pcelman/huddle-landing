@@ -163,9 +163,73 @@ body {
 .email__title {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+  font-family: var(--font-poppins);
 }
 
 .footer {
   background-color: var(--very-dark-cyan);
   color: white;
+}
+
+.footer_paragraph {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.footer__icon {
+  position: relative;
+  top: 4px;
+}
+
+.footer__directions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__list--left {
+  margin: 30px 0 20px;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__logo {
+  max-width: 300px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.footer__contact {
+  margin-top: 30px;
+  text-align: center;
+  gap: 10px;
+}
+
+.footer__socialmedia {
+  display: flex;
+}
+.footer__media {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__copy {
+  margin-top: 30px;
 }
