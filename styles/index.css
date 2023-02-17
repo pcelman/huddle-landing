@@ -86,13 +86,14 @@ body {
   line-height: 1.5;
 }
 
-.hero__button {
+.button {
   padding: 0.7rem 2.8rem;
   display: inline-block;
   border-radius: 25px;
   background-color: var(--pink);
-  color: var(--very-pale-blue);
+  color: var(--very-pale-cyan);
   text-decoration: none;
+  box-shadow: 0 0 3px hsl(322, 100%, 66%, .3);
 }
 
 .hero__img {
@@ -147,14 +148,19 @@ body {
   background-image: linear-gradient(
     to bottom,
     #fff 50%,
-   var(--very-dark-cyan) 50%
-    
+    var(--very-dark-cyan) 50%
   );
 }
 
 .email__container {
+  padding: 3rem 2rem;
   box-shadow: 0 0 3px hsl(195, 100%, 9%, 0.3);
-  padding: 30px 40px;
+  text-align: center;
   background-color: white;
-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.email__title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
