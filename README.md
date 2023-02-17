@@ -20,3 +20,19 @@ This is a simple example of a responsive layout that uses Flexbox to switch from
 - Uses Flexbox to create a responsive layout that adapts to different screen sizes.
 - Switches from a row-based layout to a column-based layout on smaller screens.
 - Provides a consistent user experience across different devices.
+
+## Getting Started
+
+To use this code in your own project, simply copy the files into your project directory.
+
+## Usage
+
+Open the `index.html` file in your web browser to view the responsive layout in action. Try resizing the browser window to see the layout change from a row-based layout to a column-based layout.
+
+## Contributing
+
+If you find any issues with this code or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This code is released under the MIT License. See the `LICENSE` file for more information.
