@@ -109,16 +109,14 @@ body {
   flex-direction: column;
   gap: 40px;
   box-shadow: 0 0 4px hsl(195, 100%, 9%, 0.3);
-  /* box-shadow: 0 0 4px hsl(192 100% 9% 0.3); */
   border-radius: 8px;
   padding: 2rem 1rem;
 }
 
 .section__img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   display: block;
-  /* needs to have a defined width to be able to center  */
   margin: 0 auto;
 }
 
@@ -136,10 +134,12 @@ body {
   color: var(--very-dark-cyan);
   font-size: 1.8rem;
 }
+
 .main {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 50px;
+  margin-top: 70px;
 }
 
 .email {
@@ -293,7 +293,6 @@ body {
 
   .section__texts {
     text-align: left;
-    /* padding: 4rem 4rem; */
   }
 
   .section__texts h2 {
@@ -301,10 +300,15 @@ body {
     text-align: left;
   }
 
+  .section__img {
+    max-width: 600px;
+  }
+
   .main {
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
   }
 
   .email {
@@ -343,13 +347,11 @@ body {
 
   .footer__directions {
     width: min-content;
- 
   }
 
   .footer__list {
     padding: 0;
     width: max-content;
-   
   }
 
   .footer__list--left {
