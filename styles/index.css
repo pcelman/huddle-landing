@@ -93,7 +93,7 @@ body {
   background-color: var(--pink);
   color: var(--very-pale-cyan);
   text-decoration: none;
-  box-shadow: 0 0 3px hsl(322, 100%, 66%, .3);
+  box-shadow: 0 0 6px hsl(195, 100%, 9%, 0.3);
 }
 
 .hero__img {
@@ -163,4 +163,9 @@ body {
 .email__title {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: var(--very-dark-cyan);
+  color: white;
 }
