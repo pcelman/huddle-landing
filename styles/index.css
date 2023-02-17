@@ -136,3 +136,15 @@ body {
   color: var(--very-dark-cyan);
   font-size: 1.8rem;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.email {
+  background-image: linear-gradient(
+    to top,
+    
+  );
+}
