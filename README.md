@@ -7,7 +7,7 @@ Frontend Mentor Challenge
 
 # Flexbox Responsive Layout
 
-This is a simple example of a responsive layout that uses Flexbox to switch from a row-based layout on larger screens to a column-based layout on smaller screens.
+This is aa example of a responsive layout that uses Flexbox to switch from a row-based layout on larger screens to a column-based layout on smaller screens.
 
 ## Technologies Used
 
