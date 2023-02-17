@@ -143,8 +143,18 @@ body {
 }
 
 .email {
+  padding: var(--padding-container);
   background-image: linear-gradient(
-    to top,
+    to bottom,
+    #fff 50%,
+   var(--very-dark-cyan) 50%
     
   );
+}
+
+.email__container {
+  box-shadow: 0 0 3px hsl(195, 100%, 9%, 0.3);
+  padding: 30px 40px;
+  background-color: white;
+border-radius: 8px;
 }
